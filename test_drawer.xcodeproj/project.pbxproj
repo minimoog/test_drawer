@@ -13,6 +13,11 @@
 		CD3B3C762404639600051E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3B3C742404639600051E66 /* Main.storyboard */; };
 		CD3B3C782404639700051E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3B3C772404639700051E66 /* Assets.xcassets */; };
 		CD3B3C7B2404639700051E66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3B3C792404639700051E66 /* LaunchScreen.storyboard */; };
+		CD3B3C832404658F00051E66 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3B3C822404658F00051E66 /* MyPageViewController.swift */; };
+		CD3B3C852404691F00051E66 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3B3C842404691F00051E66 /* TableViewController.swift */; };
+		CD3B3C8724046BF400051E66 /* LabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3B3C8624046BF400051E66 /* LabelViewController.swift */; };
+		CD3B3C8924046F7400051E66 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3B3C8824046F7400051E66 /* CollectionViewController.swift */; };
+		CD3B3C8B2404700200051E66 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3B3C8A2404700200051E66 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		CD3B3C772404639700051E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD3B3C7A2404639700051E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD3B3C7C2404639700051E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3B3C822404658F00051E66 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		CD3B3C842404691F00051E66 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CD3B3C8624046BF400051E66 /* LabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelViewController.swift; sourceTree = "<group>"; };
+		CD3B3C8824046F7400051E66 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		CD3B3C8A2404700200051E66 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				CD3B3C772404639700051E66 /* Assets.xcassets */,
 				CD3B3C792404639700051E66 /* LaunchScreen.storyboard */,
 				CD3B3C7C2404639700051E66 /* Info.plist */,
+				CD3B3C822404658F00051E66 /* MyPageViewController.swift */,
+				CD3B3C842404691F00051E66 /* TableViewController.swift */,
+				CD3B3C8624046BF400051E66 /* LabelViewController.swift */,
+				CD3B3C8824046F7400051E66 /* CollectionViewController.swift */,
+				CD3B3C8A2404700200051E66 /* CollectionViewCell.swift */,
 			);
 			path = test_drawer;
 			sourceTree = "<group>";
@@ -140,7 +155,12 @@
 			files = (
 				CD3B3C732404639600051E66 /* ViewController.swift in Sources */,
 				CD3B3C6F2404639600051E66 /* AppDelegate.swift in Sources */,
+				CD3B3C8B2404700200051E66 /* CollectionViewCell.swift in Sources */,
 				CD3B3C712404639600051E66 /* SceneDelegate.swift in Sources */,
+				CD3B3C852404691F00051E66 /* TableViewController.swift in Sources */,
+				CD3B3C8924046F7400051E66 /* CollectionViewController.swift in Sources */,
+				CD3B3C832404658F00051E66 /* MyPageViewController.swift in Sources */,
+				CD3B3C8724046BF400051E66 /* LabelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
